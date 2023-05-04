@@ -77,8 +77,51 @@ function task12(){
 }
 
 // Практика
-function task13(){
+function task13($hours, $day, $month){
+    $hours = 60 * 60;
+    $day = $hours * 24;
+    $month = $day * 30;
+}
 
-    
+function task14(){
+    return date('h:i:s');
+}
 
+function task15($num){
+    return $num**2;
+}
+
+function task16(){
+    $var = 47;
+    $var += 7;
+    $var -= 18;
+    $var *= 10;
+    $var /= 20;
+    echo $var;
+}
+
+function task17(){
+    $text = 'Я';
+    $text .= ' хочу';
+    $text .= ' знать';
+    $text .= ' PHP!';
+    echo $text;
+}
+function task18(){
+    $var = 10;
+    $var++;
+    $var++;
+    $var--;
+    echo $var;
+}
+
+function task19(){
+    $var = 10;
+    $var += 7;
+    $var += 1;
+    $var -= 1;
+    $var += 12;
+    $var *= 7;
+    $var -= 15;
+    echo $var;
 }
