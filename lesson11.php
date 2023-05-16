@@ -1,2 +1,0 @@
-<?php
-//Date and time
